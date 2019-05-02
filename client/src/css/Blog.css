@@ -1,0 +1,50 @@
+img {
+  width: 100%;
+}
+
+i.fa-code {
+  font-size: 2em;
+  padding-right: 5px;
+}
+
+#pagination {
+  text-align: center;
+}
+
+#pagination .link {
+  background-color: #fff;
+  color: #000000;
+  display: inline-block;
+  font-size: 22px;
+  padding: 8px 16px;
+  margin: 5px 4px;
+  text-decoration: none;
+}
+
+#pagination .link.active {
+  color: #0000ff;
+}
+
+#pagination .link:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.title {
+  text-transform: capitalize;
+}
+
+.header {
+  margin-bottom: 25px;
+}
+
+.index-container {
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 100px;
+}
+
+.show-button {
+  width: 150px;
+}
